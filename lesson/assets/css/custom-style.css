@@ -199,6 +199,247 @@
   font-weight: 600;
 }
 
+.about_secondary .text-center > p > span {
+  color: #EBB94D;
+}
+
 .about_secondary_box .second_box {
+  border-radius: .5em;
   display: inline-block;
+  background-color: #fff;
+  width: 23%;
+  margin: 0 7px;
+}
+
+.about_secondary_box .second_box .yellow_headline {
+  border-radius: .5em;
+  margin: 34px;
+  background-color: #EBB94D;
+}
+
+.about_secondary_box .second_box > p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.about_secondary_box .second_box .second_text {
+  margin: 24px 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.study_headline {
+  background-color: #016EA9;
+  padding: 40px 0;
+}
+
+.study_headline > p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.study_headline > p > span {
+  color: #EBB94D;
+}
+
+.study_inner .study_isara {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 600;
+  margin: 66px auto;
+}
+
+.study_inner .study_isara span {
+  font-size: 16px;
+}
+
+.study_inner .study_content {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.study_inner .study_content_img {
+  display: inline-block;
+}
+
+.study_inner .study_content_img img {
+  width: 82%;
+}
+
+.study_inner .study_content > .second_text {
+  margin: 40px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.merit {
+  background-color: #FEF5E0;
+  padding: 40px 0;
+}
+
+.merit_headline {
+  position: relative;
+  width: 860px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.merit_headline > h2 {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.merit_headline strong {
+  font-size: 28px;
+}
+
+.merit_headline::before, .merit_headline::after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.merit_headline::before {
+  border-left: solid 4px #ebb94d;
+  border-top: solid 4px #ebb94d;
+  top: 0;
+  left: 0;
+}
+
+.merit_headline::after {
+  border-right: solid 4px #ebb94d;
+  border-bottom: solid 4px #ebb94d;
+  bottom: 0;
+  right: 0;
+}
+
+.merit_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0;
+}
+
+.merit_content .merit_explanation {
+  padding: 0 15px;
+}
+
+.merit_content .merit_explanation img {
+  width: 100%;
+}
+
+.merit_content .merit_explanation .font-yellow {
+  color: #EBB94D;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.merit_content .merit_explanation p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.merit_subcontent {
+  padding: 0 0 40px;
+}
+
+.merit_subcontent .merit_box {
+  width: 1150px;
+  padding: 40px 0;
+  margin: 0 auto 40px;
+  background-color: #fff;
+  border: solid 2px;
+  border-color: #EBB94D;
+  border-radius: 0.5em;
+}
+
+.merit_subcontent .merit_box h2 {
+  font-size: 28px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #EBB94D;
+}
+
+.merit_subcontent .merit_box .subtext {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.merit_subcontent .merit_box p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.menber {
+  background-image: url(../img/teacherbg.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.menber_title {
+  color: #fff;
+}
+
+.menber_title h2 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.menber_title p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.menber_table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.menber_table .menber_box {
+  width: 50%;
+  display: block;
+  margin: 10px;
+  position: static;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.menber_table .menber_box .text-left {
+  display: inline-block;
+}
+
+.menber_table .menber_box img {
+  position: relative;
+  top: 25px;
+  border-radius: 50%;
+}
+
+.menber_table .menber_box .menber_text {
+  padding: 40px;
+  border: solid 2px;
+  border-color: #fff;
 }
